@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:id="@+id/drawer"
+    android:background="#68BAFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="음식점"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_margin="15dp"
+        android:background="#63A9FFC5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="부산모범음식점"/>
+
+
+</LinearLayout>
